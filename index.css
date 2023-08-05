@@ -1,0 +1,209 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+body{
+
+    background-color:#140b22
+}
+
+h1{
+    font-size: 280%;
+    color:  #FFFFFF;
+}
+.search-container0{
+    margin-top:20px;
+    height:13%;
+   
+    display:flex;
+    justify-content: center;
+
+}
+
+/* search bar css */
+
+.search-container{
+    margin-top:20px;
+    height:15%;
+    
+    display:flex;
+    justify-content: center;
+    
+}
+.feilds{
+    width:90%;
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.inp-box{
+  width:45%;
+  height:50px;
+
+  margin-right:25px;
+  
+  border:none;
+  background-color: #2e2755;
+  border-top: 3px solid #1e1034;  
+  border-radius:10px; 
+  box-shadow: 0px 0px 20px 0.5px rgba(36, 7, 50, 0.3); 
+  transition: box-shadow 0.46s;
+
+}
+.inp-box:hover{
+    box-shadow: 0px 0px 20px 0.5px rgba(36, 7, 48, 0.6); 
+    cursor: pointer;
+
+}
+::placeholder{
+    font-size: 17px;
+    padding-left:10px;
+    color:rgb(213, 215, 217);
+}
+
+.search-btn{
+ width:14%;
+ height:50px;
+ font-size: 17px;
+ font-weight: 600;
+ background-color: #615a8e;
+ color:rgb(213, 215, 217);
+ border-radius:10px;
+ border:none;
+ transition: opacity 0.46s;
+}
+
+.search-btn:hover{
+    background-color: rgba(109, 97, 142, 0.6);
+    cursor: pointer;
+    box-shadow: 0px 0px 20px 0.5px rgba(36, 7, 50, 0.3); 
+}
+
+
+
+
+
+.main-container{
+    
+    display:flex;
+    justify-content: center;
+}
+
+.data-container{
+   
+    width: 90%;
+    
+    display:flex;
+    flex-wrap: wrap;
+    gap:20px;
+    
+
+    margin: 35px 0px;
+
+}
+
+/* css for card  */
+.card{
+    
+    border-radius:17px;
+     width:350px;
+    min-height:180px;
+
+    display:flex;
+    background-image: url("../weather-App/image/Rectangle\ 1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    box-shadow: 0px 0px 20px 0.5px rgba(147, 3, 214, 0.3);
+    transition: all 0.36s;
+}
+.card:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.left{
+    flex:1;
+
+    display:flex;
+    flex-direction: column;
+    
+    
+}
+.temp{
+   
+    font-size: 65px;
+    flex:2;
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.temp >div >sup{
+    font-size: 35px;
+}
+.press-humid{
+   
+    flex:0.3;
+    padding-left: 8px;
+    padding-bottom:3px;
+    font-size: 12px;
+    color: #b5b2b2;
+ 
+}
+.press-humid > span{
+    margin-right:5px;
+}
+
+.city-name{
+   
+    flex:0.4;
+    padding-left: 8px;
+    padding-bottom:10px;
+    color: #e9e9e9;
+    font-weight: 500;
+    font-size: 17px;
+  
+}
+
+
+.right{
+    flex:2;
+    display:flex;
+    flex-direction: column;
+    
+}
+.image-icon{
+    
+    flex:2.3;
+
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    padding-right: 12px;
+
+}
+.desp{
+
+    flex:0.4;
+
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    padding-right: 12px;
+    color: #e9e9e9;
+    font-size: 15px;
+    padding-bottom:10px;
+}
+.icons{
+    font-size: 120px;
+    color: whitesmoke;
+}
