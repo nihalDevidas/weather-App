@@ -44,18 +44,18 @@ const sortCityArray = ()=>{
 function fetchIcons(value){
     let icon = "";
 
-    switch(value){
+   switch(value){
 
-        case "rain": icon = `<i class="fa-solid fa-cloud-showers-water icons"></i>`;
+        case "Rain": icon = `<i class="fa-solid fa-cloud-showers-water icons"></i>`;
                       break;
 
-        case "clouds": icon = `<i class="fa-solid fa-cloud icons"></i>`;
+        case "Clouds": icon = `<i class="fa-solid fa-cloud icons"></i>`;
                        break; 
 
-        case "clear": icon =  `<i class="fa-solid fa-sun icons"></i>`;
+        case "Clear": icon =  `<i class="fa-solid fa-sun icons"></i>`;
                        break; 
 
-        case "clear": icon =  `<i class="fa-solid fa-smog icons"></i>`;
+        case "Haze": icon =  `<i class="fa-solid fa-smog icons"></i>`;
                        break; 
         default :    icon =  `<i class="fa-solid fa-cloud-sun-rain icons"></i>`;
 
