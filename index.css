@@ -99,6 +99,7 @@ h1{
     
     display:flex;
     flex-wrap: wrap;
+    justify-content: center;
     gap:20px;
     
 
@@ -206,4 +207,11 @@ h1{
 .icons{
     font-size: 120px;
     color: whitesmoke;
+}
+
+@media (max-width:572px){
+    .search-btn{
+        width:100px;
+    } 
+    
 }
